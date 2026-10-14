@@ -1,1 +1,6 @@
-document.getElementById('year').textContent=new Date().getFullYear();
+// Atualiza automaticamente o ano no rodapé do portfólio.
+const yearElement = document.getElementById("year");
+
+if (yearElement) {
+    yearElement.textContent = new Date().getFullYear();
+}
