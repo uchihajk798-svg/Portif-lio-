@@ -1,19 +1,149 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="description" content="Portfólio de Abraão Seixas de Morais, desenvolvedor web em formação.">
-<title>Abraão Seixas | Portfólio</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portfólio de Abraão Seixas de Morais, desenvolvedor web em formação.">
+
+    <title>Abraão Seixas | Portfólio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<header><nav class="wrap"><a class="brand" href="#inicio">AS<span style="color:var(--accent)">.</span></a><div class="links"><a href="#sobre">Sobre</a><a href="#habilidades">Habilidades</a><a href="#projetos">Projetos</a><a href="#contato">Contato</a></div></nav></header>
-<main>
-<div class="wrap hero" id="inicio"><div class="eyebrow">Olá, eu sou</div><h1>Abraão Seixas<br>de Morais<span style="color:var(--accent)">.</span></h1><p class="lead">Desenvolvedor web em formação, interessado em transformar ideias em projetos e aprender cada vez mais sobre programação.</p><div class="buttons"><a class="btn" href="#projetos">Ver projetos</a><a class="btn secondary" href="#contato">Entrar em contato</a></div></div>
-<section id="sobre"><div class="wrap"><h2>Sobre mim</h2><p class="muted">Tenho conhecimentos em JavaScript e HTML, além de noções básicas de backend, frontend e bancos de dados. Estou desenvolvendo minhas habilidades por meio de estudos e projetos práticos. Gosto de explorar ideias e buscar soluções usando tecnologia.</p></div></section>
-<section id="habilidades"><div class="wrap"><h2>Habilidades</h2><p class="muted">Tecnologias e áreas que estou estudando e utilizando.</p><div class="grid"><article class="card"><h3>Desenvolvimento web</h3><span class="tag">JavaScript</span><span class="tag">HTML</span></article><article class="card"><h3>Conhecimentos iniciais</h3><span class="tag">Frontend</span><span class="tag">Backend</span><span class="tag">Banco de dados</span></article></div></div></section>
-<section id="projetos"><div class="wrap"><h2>Projetos</h2><p class="muted">Alguns projetos e estudos que fazem parte da minha jornada.</p><div class="grid"><article class="card"><h3>Mapa de Transferência de Calor</h3><p class="muted">Projeto educativo sobre conceitos de física e transferência de calor.</p><a class="project-link" href="https://github.com/uchihajk798-svg/mapa-transferencia-calor" target="_blank" rel="noopener noreferrer">Ver no GitHub ↗</a></article><article class="card"><h3>Pokémon Unova</h3><p class="muted">Repositório de um projeto experimental inspirado na região de Unova.</p><a class="project-link" href="https://github.com/uchihajk798-svg/pokemon-unova" target="_blank" rel="noopener noreferrer">Ver no GitHub ↗</a></article></div></div></section>
-<section id="contato"><div class="wrap"><h2>Contato</h2><p class="muted">Quer conhecer meus projetos ou conversar sobre programação? Acesse meu GitHub.</p><a class="btn" href="https://github.com/uchihajk798-svg" target="_blank" rel="noopener noreferrer">Meu GitHub ↗</a></div></section>
-</main><footer><div class="wrap">© <span id="year"></span> Abraão Seixas de Morais. Feito com HTML, CSS e JavaScript.</div></footer>
-<script src="script.js" defer></script>
-</body></html>
+    <!-- Cabeçalho e navegação -->
+    <header>
+        <nav class="wrap">
+            <a class="brand" href="#inicio">AS<span class="accent">.</span></a>
+
+            <div class="links">
+                <a href="#sobre">Sobre</a>
+                <a href="#habilidades">Habilidades</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#contato">Contato</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Apresentação -->
+        <div class="wrap hero" id="inicio">
+            <div class="eyebrow">Olá, eu sou</div>
+
+            <h1>
+                Abraão Seixas<br>
+                de Morais<span class="accent">.</span>
+            </h1>
+
+            <p class="lead">
+                Desenvolvedor web em formação, interessado em transformar ideias
+                em projetos e aprender cada vez mais sobre programação.
+            </p>
+
+            <div class="buttons">
+                <a class="btn" href="#projetos">Ver projetos</a>
+                <a class="btn secondary" href="#contato">Entrar em contato</a>
+            </div>
+        </div>
+
+        <!-- Sobre mim -->
+        <section id="sobre">
+            <div class="wrap">
+                <h2>Sobre mim</h2>
+
+                <p class="muted">
+                    Tenho conhecimentos em JavaScript e HTML, além de noções básicas
+                    de backend, frontend e bancos de dados. Estou desenvolvendo minhas
+                    habilidades por meio de estudos e projetos práticos. Gosto de
+                    explorar ideias e buscar soluções usando tecnologia.
+                </p>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades">
+            <div class="wrap">
+                <h2>Habilidades</h2>
+                <p class="muted">Tecnologias e áreas que estou estudando e utilizando.</p>
+
+                <div class="grid">
+                    <article class="card">
+                        <h3>Desenvolvimento web</h3>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">HTML</span>
+                    </article>
+
+                    <article class="card">
+                        <h3>Conhecimentos iniciais</h3>
+                        <span class="tag">Frontend</span>
+                        <span class="tag">Backend</span>
+                        <span class="tag">Banco de dados</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos">
+            <div class="wrap">
+                <h2>Projetos</h2>
+                <p class="muted">Alguns projetos e estudos que fazem parte da minha jornada.</p>
+
+                <div class="grid">
+                    <article class="card">
+                        <h3>Mapa de Transferência de Calor</h3>
+                        <p class="muted">
+                            Projeto educativo sobre conceitos de física e transferência de calor.
+                        </p>
+                        <a class="project-link"
+                           href="https://github.com/uchihajk798-svg/mapa-transferencia-calor"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Ver no GitHub ↗
+                        </a>
+                    </article>
+
+                    <article class="card">
+                        <h3>Pokémon Unova</h3>
+                        <p class="muted">
+                            Repositório de um projeto experimental inspirado na região de Unova.
+                        </p>
+                        <a class="project-link"
+                           href="https://github.com/uchihajk798-svg/pokemon-unova"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                            Ver no GitHub ↗
+                        </a>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato">
+            <div class="wrap">
+                <h2>Contato</h2>
+                <p class="muted">
+                    Quer conhecer meus projetos ou conversar sobre programação?
+                    Acesse meu GitHub.
+                </p>
+                <a class="btn"
+                   href="https://github.com/uchihajk798-svg"
+                   target="_blank"
+                   rel="noopener noreferrer">
+                    Meu GitHub ↗
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="wrap">
+            © <span id="year"></span> Abraão Seixas de Morais.
+            Feito com HTML, CSS e JavaScript.
+        </div>
+    </footer>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
